@@ -18,6 +18,14 @@ obj/
 *_backup/
 sdkconfig.old
 
+# Qt / MinGW 产物
+*.exe
+*.obj
+*.ilk
+*.pdb
+.qmake.stash
+*.pro.user
+
 # 编辑器与工具
 .vs/
 .idea/

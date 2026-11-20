@@ -10,7 +10,7 @@
 | --- | --- | --- | --- |
 | [ikun_thermal_imaging_v1.0](ikun_thermal_imaging_v1.0/) | ESP32-S3 | MLX90640 红外热成像手持终端：实时热图、伪彩、电量显示、按键冻结 | 固件 + 硬件 |
 | [ikun_camera_v1.0](ikun_camera_v1.0/) | ESP32-S3 | 摄像头图像采集工程 | 固件 + 硬件 |
-| [iKun_Power_Analyze_v1.0](iKun_Power_Analyze_v1.0/) | CH32V20x | 功耗分析仪：下位机采样 + Qt 上位机曲线显示 | 固件 + 上位机 + 硬件 |
+| [ikun_power_analyze_v1.0](ikun_power_analyze_v1.0/) | CH32V20x | 功耗分析仪：下位机采样 + Qt 上位机曲线显示 | 固件 + 上位机 + 硬件 |
 | [ikun_hub_io_debug_v1.0](ikun_hub_io_debug_v1.0/) | — | USB HUB + IO 调试板，用于 USB SS 信号与供电链路验证 | 硬件 |
 
 ## 目录约定

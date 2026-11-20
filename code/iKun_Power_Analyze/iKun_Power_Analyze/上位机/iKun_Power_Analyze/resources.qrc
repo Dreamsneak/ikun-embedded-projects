@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>ikun_Power.ico</file>
+    </qresource>
+</RCC>

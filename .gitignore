@@ -1,0 +1,26 @@
+# 编译产物与中间文件
+build/
+obj/
+*.o
+*.d
+*.lst
+*.map
+*.elf
+*.hex
+*.bin
+*.app
+*.su
+
+# 压缩包与备份
+*.rar
+*.7z
+*.zip
+*_backup/
+sdkconfig.old
+
+# 编辑器与工具
+.vs/
+.idea/
+__pycache__/
+*.pyc
+.DS_Store

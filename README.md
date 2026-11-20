@@ -1,5 +1,7 @@
 # iKun 嵌入式项目集
 
+[![ESP-IDF Build](https://github.com/Dreamsneak/ikun-embedded-projects/actions/workflows/esp-idf-build.yml/badge.svg)](https://github.com/Dreamsneak/ikun-embedded-projects/actions/workflows/esp-idf-build.yml)
+
 个人嵌入式软硬件项目集合，每个项目一个独立目录，涵盖 ESP32-S3 / 沁恒 CH 系列 MCU 的固件开发，以及基于 **立创EDA 专业版（LCEDA Pro）** 的原理图与 PCB 设计。
 
 ## 项目一览
@@ -29,3 +31,8 @@
 - 编译产物（`build/`、`obj/`）、压缩包与工具链备份已由 `.gitignore` 排除，克隆后需自行编译。
 - `.eprj2` 为立创EDA 专业版工程主文件，用 **LCEDA Pro** 打开（非标准版）。
 - 各项目的引脚定义、外设参数写在对应 README 与源码头部注释中，以源码为准。
+- ESP-IDF 工程（`ikun_camera_v1.0`、`ikun_thermal_imaging`）由 GitHub Actions 自动编译校验，构建状态见顶部徽章；工作流定义在 `.github/workflows/esp-idf-build.yml`，ESP-IDF 版本 v5.4.1、目标芯片 esp32s3。
+
+## 开源协议
+
+本项目集采用 [MIT License](LICENSE) 开源，可自由使用、修改与分发，保留版权声明即可。

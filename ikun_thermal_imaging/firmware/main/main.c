@@ -3,6 +3,7 @@
 #include <string.h>
 #include <stdbool.h>
 #include <time.h>
+#include <inttypes.h>
 #include "sdkconfig.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
@@ -117,7 +118,7 @@ static void battery_adc_task(void *arg)
         int battery_level = battery_adc_read_level();
         g_battery_level = battery_level;
 #if 1
-        printf("Battery: RAW=%d, ADC=%dmV, VBAT=%dmV, Level=%d%%\n",
+        printf("Battery: RAW=%" PRIu32 ", ADC=%" PRIu32 "mV, VBAT=%" PRIu32 "mV, Level=%d%%\n",
                adc_raw, adc_voltage, battery_voltage, battery_level);
 #endif
 

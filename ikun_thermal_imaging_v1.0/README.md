@@ -1,4 +1,4 @@
-# ikun_thermal_imaging
+# ikun_thermal_imaging_v1.0
 
 基于 **ESP32-S3 + MLX90640** 的红外热成像手持终端。通过 I2C 读取 32×24 红外测温阵列，转换为伪彩色热图后显示在 ILI9341 LCD 上，并叠加电池电量指示。
 
@@ -25,7 +25,7 @@
 ## 目录结构
 
 ```
-ikun_thermal_imaging/
+ikun_thermal_imaging_v1.0/
 ├── firmware/                  ESP-IDF 工程（target: esp32s3）
 │   ├── main/
 │   │   ├── main.c             任务调度与 I2C/按键初始化

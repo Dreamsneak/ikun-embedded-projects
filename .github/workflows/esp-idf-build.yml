@@ -5,12 +5,12 @@ on:
     branches: [main]
     paths:
       - 'ikun_camera_v1.0/**'
-      - 'ikun_thermal_imaging/**'
+      - 'ikun_thermal_imaging_v1.0/**'
       - '.github/workflows/**'
   pull_request:
     paths:
       - 'ikun_camera_v1.0/**'
-      - 'ikun_thermal_imaging/**'
+      - 'ikun_thermal_imaging_v1.0/**'
       - '.github/workflows/**'
   workflow_dispatch:
 
@@ -24,7 +24,7 @@ jobs:
         include:
           - project: ikun_camera_v1.0/firmware
             target: esp32s3
-          - project: ikun_thermal_imaging/firmware
+          - project: ikun_thermal_imaging_v1.0/firmware
             target: esp32s3
     steps:
       - name: Checkout

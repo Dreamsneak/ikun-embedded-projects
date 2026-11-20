@@ -1,11 +1,11 @@
-# iKun_Power_Analyze
+# iKun_Power_Analyze_v1.0
 
 功耗分析仪完整方案：下位机实时采样电压/电流，上位机绘制功率曲线。
 
 ## 组成
 
 ```
-iKun_Power_Analyze/
+iKun_Power_Analyze_v1.0/
 ├── firmware/   CH32V20x 下位机固件（MounRiver Studio / GCC 工程）
 ├── host/       Qt 上位机（QWidget + 自绘图表 chartwidget）
 └── hardware/   立创EDA 工程与 Gerber
